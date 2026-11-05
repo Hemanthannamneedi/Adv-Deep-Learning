@@ -1,0 +1,14 @@
+DAY 61 - RNN VS LSTM EVALUATION
+=============================================
+
+       Model Architecture  Units  Test_MSE  Test_MAE  Test_RMSE  Training_Time_Seconds  Epochs_Trained
+    LSTM_128         LSTM    128  0.000341  0.014034   0.018476              41.594481              35
+     LSTM_32         LSTM     32  0.000620  0.014829   0.024905              28.961637              50
+     LSTM_64         LSTM     64  0.001066  0.019798   0.032643              21.237622              32
+SimpleRNN_32          RNN     32  0.001071  0.020014   0.032722              60.454593              50
+
+Best model based on test MAE: LSTM_128
+
+Sample prediction:
+Actual value: 20.0
+Predicted value: 19.6506

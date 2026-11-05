@@ -1,0 +1,2 @@
+Input_Sequence,Actual_Next_Value,Predicted_Next_Value,Selected_Model
+"10,11,12,13,14,15,16,17,18,19",20.0,19.65058708190918,LSTM_128

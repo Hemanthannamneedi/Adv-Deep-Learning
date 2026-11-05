@@ -1,0 +1,32 @@
+# Day 61 Assignment — LSTM Unit Size Comparison
+
+## Objective
+To understand how changing the number of LSTM units affects model performance and training time.
+
+## Experiments
+I trained three LSTM models using different hidden-unit configurations:
+
+- LSTM with 32 units
+- LSTM with 64 units
+- LSTM with 128 units
+
+I also trained a SimpleRNN model with 32 units as a baseline for comparison.
+
+## Evaluation Metrics
+The models were evaluated using:
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- Training time
+- Number of epochs completed
+
+## Observations
+The comparison results are saved in `model_comparison.csv`.
+
+The experiment helps demonstrate how model capacity and the number of LSTM units can affect prediction error and training time. A larger number of units can increase computational requirements and may increase overfitting risk.
+
+## Conclusion
+LSTM networks use forget, input, and output gates to control information flow through the cell state and hidden state. Testing different unit sizes helps identify a suitable model configuration for a given sequential prediction task.
+
+*Note: Actual metric values and the best-performing configuration should be added after running the experiment.*
