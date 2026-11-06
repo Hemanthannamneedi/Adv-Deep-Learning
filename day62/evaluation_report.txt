@@ -1,0 +1,11 @@
+DAY 62 - LSTM VS GRU SENTIMENT ANALYSIS
+==================================================
+
+Model  Parameters  Training_Time_Seconds  Test_Loss  Test_Accuracy  Best_Validation_Accuracy  Epochs_Trained
+ LSTM      673089             160.097215   0.397485        0.84136                    0.8584               4
+  GRU      665025             152.270851   0.427128        0.83584                    0.8600               5
+
+Best model based on test accuracy: LSTM
+
+Dataset: IMDB Movie Reviews
+Task: Binary Sentiment Classification

@@ -1,0 +1,63 @@
+# Day 62 Assignment — LSTM vs GRU Comparison
+
+## Objective
+To understand the GRU architecture and compare its performance with LSTM for text sentiment classification.
+
+## Dataset
+IMDB Movie Reviews Dataset
+
+The dataset contains movie reviews labelled as:
+- Positive sentiment: 1
+- Negative sentiment: 0
+
+## Model Implementations
+
+**LSTM Model**
+- Embedding layer
+- LSTM layer with 64 units
+- Dropout layer
+- Sigmoid output layer
+
+**GRU Model**
+- Embedding layer
+- GRU layer with 64 units
+- Dropout layer
+- Sigmoid output layer
+
+Both models use the same dataset, embedding dimension, number of recurrent units, training configuration, and evaluation data.
+
+## Comparison Table
+
+| Comparison Factor | LSTM | GRU |
+|---|---|---|
+| Recurrent gates | Forget, Input, Output | Update, Reset |
+| Memory states | Cell state and hidden state | Hidden state only |
+| Number of gates | 3 | 2 |
+| Parameters | Generally more | Generally fewer |
+| Training speed | Record actual result | Record actual result |
+| Test accuracy | Record actual result | Record actual result |
+| Test loss | Record actual result | Record actual result |
+
+## Experimental Results
+
+Refer to `model_comparison.csv` for the actual:
+- Parameter count
+- Training time
+- Test accuracy
+- Test loss
+
+## Observations
+
+GRU uses two gates and does not maintain a separate cell state. This makes its architecture simpler than LSTM.
+
+LSTM uses a separate cell state and three gates to control information flow. GRU combines some of these operations into its update gate.
+
+GRU often requires fewer parameters and may train faster. However, the accuracy and training time depend on the dataset, model configuration, and hardware.
+
+## Conclusion
+
+Both LSTM and GRU are recurrent neural network architectures designed to learn sequential patterns.
+
+This experiment compares their parameter counts, training speed, and sentiment classification performance to understand their practical trade-offs.
+
+*Note: Insert the actual experimental results from model_comparison.csv before submitting.*
