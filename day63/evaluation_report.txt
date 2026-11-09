@@ -1,0 +1,16 @@
+DAY 63 - LSTM TIME SERIES FORECASTING
+=============================================
+
+Dataset: Generated multivariate sales data
+Window size: 14 days
+Forecast horizon: 7 days
+Number of features: 5
+Training time: 12.14 seconds
+
+ONE-STEP TEST METRICS
+MAE: 13.8069
+RMSE: 18.3583
+
+SEVEN-DAY FORECAST METRICS
+MAE: 8.1409
+RMSE: 9.3590
