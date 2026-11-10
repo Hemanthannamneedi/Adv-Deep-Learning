@@ -1,0 +1,28 @@
+# Day 64 Assignment — Temperature Parameter Experiments
+
+## Objective
+To understand how the temperature parameter controls creativity and coherence in character-level text generation using an LSTM model.
+
+## Implementation
+I trained a character-level LSTM using a text corpus. The model learns to predict the next character from a fixed-length input sequence. I generated text using four different temperature values: 0.2, 0.5, 0.8, and 1.2.
+
+## Experimental Comparison
+
+| Temperature | Expected Output Behaviour | Observation from My Run |
+|---|---|---|
+| 0.2 | Conservative and predictable | Fill after checking generated output |
+| 0.5 | More controlled text | Fill after checking generated output |
+| 0.8 | More diverse text | Fill after checking generated output |
+| 1.2 | Highly random text | Fill after checking generated output |
+
+## Key Findings
+1. Lower temperature makes the model favour characters with higher predicted probabilities.
+2. Higher temperature increases randomness and can reduce text coherence.
+3. Top-k sampling limits the candidate characters to the most likely options.
+4. Repetitive output can occur when the model learns limited patterns from a small corpus.
+5. A larger and more diverse corpus can help the model learn richer character patterns.
+
+## Conclusion
+The experiment demonstrates that temperature controls the randomness of character-level text generation. Lower values generally produce more predictable output, while higher values produce more diverse but potentially less coherent text. The suitable temperature depends on the desired balance between creativity and readability.
+
+**Generated results:** `outputs/temperature_experiments.txt`

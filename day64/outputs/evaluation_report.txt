@@ -1,0 +1,13 @@
+DAY 64 - CHARACTER LEVEL TEXT GENERATION
+==================================================
+Corpus characters: 1322
+Vocabulary size: 28
+Training sequences: 414
+Sequence length: 80
+LSTM units: 128
+Training time: 13.28 seconds
+Final training loss: 2.8890
+Final validation loss: 3.2469
+
+Temperature experiments: 0.2, 0.5, 0.8, 1.2
+Generated samples: temperature_experiments.txt
