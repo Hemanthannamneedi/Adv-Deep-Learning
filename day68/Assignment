@@ -1,0 +1,46 @@
+# Day 68 Assignment – Transformer vs LSTM Comparison
+
+## Objective
+
+Compare a Transformer Encoder and an LSTM model on the same IMDB sentiment classification dataset.
+
+## Dataset
+
+IMDB Movie Reviews Dataset.
+
+## Models Implemented
+
+1. Transformer Encoder
+2. LSTM Classifier
+
+## Transformer Components
+
+- Token Embeddings
+- Sinusoidal Positional Encoding
+- Multi-Head Self-Attention
+- Residual Connections
+- Layer Normalization
+- Feed-Forward Network
+- Global Average Pooling
+- Dense Classification Layer
+
+## Experimental Setup
+
+Both models use the same training and testing dataset, vocabulary size, maximum sequence length, batch size, number of epochs and optimizer.
+
+## Evaluation Metrics
+
+- Test Accuracy
+- Test Loss
+- Training Time
+- Training and Validation Accuracy
+
+## Observations
+
+The Transformer Encoder processes sequence positions in parallel through self-attention, whereas the LSTM processes the sequence recurrently.
+
+The actual accuracy and training time are recorded in `outputs/model_comparison.csv`.
+
+## Conclusion
+
+This experiment demonstrates the architectural differences between Transformer Encoders and LSTMs. It also provides a practical comparison of their classification performance and computational time on the same dataset.
