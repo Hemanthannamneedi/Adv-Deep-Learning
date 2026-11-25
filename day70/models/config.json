@@ -1,0 +1,9 @@
+{
+    "max_length": 150,
+    "threshold": 0.5,
+    "best_configuration": {
+        "num_heads": 2,
+        "dropout": 0.2,
+        "learning_rate": 0.001
+    }
+}

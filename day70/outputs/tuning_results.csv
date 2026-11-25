@@ -1,0 +1,3 @@
+num_heads,dropout,learning_rate,validation_accuracy,training_time_seconds
+2,0.2,0.001,0.8583999872207642,114.60918050000001
+4,0.3,0.0005,0.8411999940872192,148.5240171
