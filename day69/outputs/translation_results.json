@@ -1,0 +1,38 @@
+[
+    {
+        "english": "hello",
+        "predicted_french": "bonjour"
+    },
+    {
+        "english": "thank you",
+        "predicted_french": "merci"
+    },
+    {
+        "english": "i love you",
+        "predicted_french": "je t aime"
+    },
+    {
+        "english": "good morning",
+        "predicted_french": "bonjour"
+    },
+    {
+        "english": "i am happy",
+        "predicted_french": "je suis heureux"
+    },
+    {
+        "english": "i speak french",
+        "predicted_french": "je parle francais"
+    },
+    {
+        "english": "where is the station",
+        "predicted_french": "ou est la gare"
+    },
+    {
+        "english": "i like music",
+        "predicted_french": "j aime la musique"
+    },
+    {
+        "english": "we like coffee",
+        "predicted_french": "nous aimons la musique"
+    }
+]

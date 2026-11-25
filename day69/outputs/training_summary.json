@@ -1,0 +1,7 @@
+{
+    "epochs": 100,
+    "sentence_pairs": 60,
+    "training_time_seconds": 19.038285600000002,
+    "final_training_accuracy": 1.0,
+    "final_training_loss": 0.01513710431754589
+}
