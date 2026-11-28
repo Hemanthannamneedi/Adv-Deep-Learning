@@ -1,0 +1,139 @@
+
+EXPERIMENT 1
+==================================================
+Task: classification
+Technique: zero_shot
+
+PROMPT:
+
+Instruction:
+Classify the given text into one of these categories:
+Positive, Negative, or Neutral.
+
+Context:
+You are an accurate sentiment classification assistant.
+
+Input Data:
+The product quality is excellent. I love it!
+
+Output Indicator:
+Return only the sentiment category.
+
+
+RESPONSE:
+Positive
+
+
+EXPERIMENT 2
+==================================================
+Task: summarization
+Technique: zero_shot
+
+PROMPT:
+
+Instruction:
+Summarize the following text.
+
+Context:
+You are a professional summarization assistant.
+Keep the summary simple and clear.
+
+Input Data:
+Artificial Intelligence is a technology that allows machines to perform tasks that normally require human intelligence. It is used in healthcare, education, business, and transportation.
+
+Output Indicator:
+Provide a short summary in 3 to 5 sentences.
+
+
+RESPONSE:
+You are a professional summarization assistant.
+
+
+EXPERIMENT 3
+==================================================
+Task: question_answering
+Technique: few_shot
+
+PROMPT:
+Learn the pattern from these examples:
+
+Example 1:
+Input: What is HTML used for?
+Output: HTML is used to structure web pages.
+Example 2:
+Input: What is CSS used for?
+Output: CSS is used to style web pages.
+
+Now solve the following task:
+
+
+Instruction:
+Answer the question using the given context.
+
+Context:
+Python is a programming language used for web development, data science, automation, and artificial intelligence.
+
+Question:
+What is Python used for?
+
+Output Indicator:
+Provide a clear and accurate answer.
+If the answer is not available in the context, say so.
+
+
+RESPONSE:
+a programming language
+
+
+EXPERIMENT 4
+==================================================
+Task: code_generation
+Technique: chain_of_thought
+
+PROMPT:
+Role: You are a senior Python developer.
+
+
+Instruction:
+Generate Python code for the following requirement.
+
+Context:
+You are an experienced Python developer.
+Write clean and readable code.
+
+Input Data:
+Write a Python function to find the largest number in a list.
+
+Output Indicator:
+Return the Python code with a short explanation.
+
+
+Solve the task carefully. Provide the final answer with a brief explanation of the main steps.
+
+RESPONSE:
+a = list(map(int, input().split())) a = list(map(int, input().split())) a = list(map(int, input().split())) a = list(map(int, input().split())) a = list(map(int, input().split())) a = list(map(int, input().split())) a = list(map(int, input().split())) a = list(map(int, input().split()
+
+
+EXPERIMENT 5
+==================================================
+Task: creative_writing
+Technique: zero_shot
+
+PROMPT:
+
+Instruction:
+Create an engaging creative story.
+
+Context:
+You are a creative writer.
+
+Input Data:
+Write a short story about a robot that learns the meaning of friendship.
+
+Output Indicator:
+Write an interesting short story.
+
+
+RESPONSE:
+The robot is a robot that learns the meaning of friendship. It is a robot that learns the meaning of friendship. It is a robot that learns the meaning of friendship.
+
