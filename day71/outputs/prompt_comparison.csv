@@ -1,0 +1,15 @@
+experiment,description,prompt,generated_text,generation_time_seconds
+Simple Prompt,A short and simple prompt.,Artificial Intelligence is,"a new field that aims to solve problems through experiments. And the project will take advantage of these technologies and offer them in open source form, not just for academic research purposes but also as an educational tool at university level.""
+The company's announcement comes after it said last year that its AI-based",2.045
+Detailed Prompt,A prompt with clear context.,Write a short educational paragraph explaining Artificial Intelligence in simple English for beginners:,This article will give you an overview of the field. You can find detailed information about this topic at https://academicengineeringreferencebook.org/Pages-of%20Awareness_and_(advanced) and http:/ / www . (you may also refer to our research section,1.889
+Creative Prompt,A creative writing prompt.,Write a short science fiction story about a robot that discovers emotions:,"The world of sci-fi has never been the same. There are no other universes or galaxies, and we've got to do something with them – it's too bad this isn't happening in space."" - Michael Mann (1926)
+
+* * ============== SONIC FICT",1.88
+Role-based Prompt,A prompt that provides a role.,You are a Python programming teacher. Explain Python functions in simple English with one example:,"The next time you read this, I'm going to assume that the code is pretty straightforward and easy-to understand because it's my personal opinion on how much of an improvement your learning process will be if we learn more about functional languages like C++ or Java.""",1.799
+Few-shot Prompt,A prompt with two examples.,"Classify the sentiment of each review.
+Review: This movie was wonderful.
+Sentiment: Positive
+Review: The movie was boring.
+Sentiment: Negative
+Review: I really enjoyed the film.
+Sentiment:",Very good,0.13

@@ -1,0 +1,37 @@
+[
+    {
+        "experiment": "Simple Prompt",
+        "description": "A short and simple prompt.",
+        "prompt": "Artificial Intelligence is",
+        "generated_text": "a new field that aims to solve problems through experiments. And the project will take advantage of these technologies and offer them in open source form, not just for academic research purposes but also as an educational tool at university level.\"\nThe company's announcement comes after it said last year that its AI-based",
+        "generation_time_seconds": 2.045
+    },
+    {
+        "experiment": "Detailed Prompt",
+        "description": "A prompt with clear context.",
+        "prompt": "Write a short educational paragraph explaining Artificial Intelligence in simple English for beginners:",
+        "generated_text": "This article will give you an overview of the field. You can find detailed information about this topic at https://academicengineeringreferencebook.org/Pages-of%20Awareness_and_(advanced) and http:/ / www . (you may also refer to our research section",
+        "generation_time_seconds": 1.889
+    },
+    {
+        "experiment": "Creative Prompt",
+        "description": "A creative writing prompt.",
+        "prompt": "Write a short science fiction story about a robot that discovers emotions:",
+        "generated_text": "The world of sci-fi has never been the same. There are no other universes or galaxies, and we've got to do something with them – it's too bad this isn't happening in space.\" - Michael Mann (1926)\n\n* * ============== SONIC FICT",
+        "generation_time_seconds": 1.88
+    },
+    {
+        "experiment": "Role-based Prompt",
+        "description": "A prompt that provides a role.",
+        "prompt": "You are a Python programming teacher. Explain Python functions in simple English with one example:",
+        "generated_text": "The next time you read this, I'm going to assume that the code is pretty straightforward and easy-to understand because it's my personal opinion on how much of an improvement your learning process will be if we learn more about functional languages like C++ or Java.\"",
+        "generation_time_seconds": 1.799
+    },
+    {
+        "experiment": "Few-shot Prompt",
+        "description": "A prompt with two examples.",
+        "prompt": "Classify the sentiment of each review.\nReview: This movie was wonderful.\nSentiment: Positive\nReview: The movie was boring.\nSentiment: Negative\nReview: I really enjoyed the film.\nSentiment:",
+        "generated_text": "Very good",
+        "generation_time_seconds": 0.13
+    }
+]

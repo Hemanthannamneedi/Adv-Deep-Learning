@@ -1,0 +1,47 @@
+DAY 71 - LLM PROMPT EXPERIMENT REPORT
+==================================================
+
+Experiment: Simple Prompt
+Description: A short and simple prompt.
+Prompt: Artificial Intelligence is
+Generated Text: a new field that aims to solve problems through experiments. And the project will take advantage of these technologies and offer them in open source form, not just for academic research purposes but also as an educational tool at university level."
+The company's announcement comes after it said last year that its AI-based
+Generation Time: 2.045 seconds
+--------------------------------------------------
+
+Experiment: Detailed Prompt
+Description: A prompt with clear context.
+Prompt: Write a short educational paragraph explaining Artificial Intelligence in simple English for beginners:
+Generated Text: This article will give you an overview of the field. You can find detailed information about this topic at https://academicengineeringreferencebook.org/Pages-of%20Awareness_and_(advanced) and http:/ / www . (you may also refer to our research section
+Generation Time: 1.889 seconds
+--------------------------------------------------
+
+Experiment: Creative Prompt
+Description: A creative writing prompt.
+Prompt: Write a short science fiction story about a robot that discovers emotions:
+Generated Text: The world of sci-fi has never been the same. There are no other universes or galaxies, and we've got to do something with them – it's too bad this isn't happening in space." - Michael Mann (1926)
+
+* * ============== SONIC FICT
+Generation Time: 1.88 seconds
+--------------------------------------------------
+
+Experiment: Role-based Prompt
+Description: A prompt that provides a role.
+Prompt: You are a Python programming teacher. Explain Python functions in simple English with one example:
+Generated Text: The next time you read this, I'm going to assume that the code is pretty straightforward and easy-to understand because it's my personal opinion on how much of an improvement your learning process will be if we learn more about functional languages like C++ or Java."
+Generation Time: 1.799 seconds
+--------------------------------------------------
+
+Experiment: Few-shot Prompt
+Description: A prompt with two examples.
+Prompt: Classify the sentiment of each review.
+Review: This movie was wonderful.
+Sentiment: Positive
+Review: The movie was boring.
+Sentiment: Negative
+Review: I really enjoyed the film.
+Sentiment:
+Generated Text: Very good
+Generation Time: 0.13 seconds
+--------------------------------------------------
+
